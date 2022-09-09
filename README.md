@@ -1,19 +1,15 @@
-# weather
+# weather widget
 
 ## Project setup
 ```
+git clone ... (понятно что)
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
-
-### Compiles and minifies for production
+или демо: https://elcapitanos.github.io/russian-weathers/
 ```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Только российские города!!! БД с городами мира слишком велика для демо-странички )
+***
+Изначально виджет показывает погоду в регионе, который вычисляет по IP броузера, потом можно добавить/ удалить город (список выпадает в popup-e), к списку приделан фильтр, который срабатывает при наборе названия. Город можно удалить, а список вручную отсортировать (тоже в popup-e) простым перетаскиванием. Popup закрывается либо по действию, либо просто по клику за его пределами.
+***
+Только российские города!!! БД с городами мира слишком велика для демо-странички )
